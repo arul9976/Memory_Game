@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1>memory</h1>
+            <ul>
+                <li>
+                    <button id="reStart">Restart</button>
+                </li>
+                <li>
+                    <button id="newGame">Start</button>
+                </li>
+            </ul>
+        </nav>
+        <div class="dots">
+            
+        </div>
+
+        <div class="inputBar">
+            <input type="number" id="inpValue" placeholder="Enter a grid count like if 4x4 enter 16? ">
+            <p class="errTxt">enter valid number</p>
+            <button id="btnClick">Start</button>
+        </div>
+
+        <footer id="timeMoves">
+            <div class="time">
+                <p>Time</p>
+                <p class="tm">0:00</p>
+            </div>
+            <div class="moves">
+                <p>Moves</p>
+                <p class="mvs">0</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
